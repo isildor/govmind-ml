@@ -1,0 +1,17 @@
+<%= form_for(@m_lmodel) do |f| %>
+  <% if @m_lmodel.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@m_lmodel.errors.count, "error") %> prohibited this m_lmodel from being saved:</h2>
+
+      <ul>
+      <% @m_lmodel.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
