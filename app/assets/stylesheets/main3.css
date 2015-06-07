@@ -1,0 +1,16 @@
+body {
+ margin: 10px;
+ padding: 0;
+ font-family: 'Roboto', sans-serif;
+ width:90%;
+}
+hr{
+    border: solid;
+    border-radius: 1px;
+    
+}
+.row1{
+    width: 30%;
+    height: auto;
+    margin-left: 20px;
+}
